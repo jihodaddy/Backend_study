@@ -9,6 +9,15 @@ public class StudentBean {
 	private int stdYear;
 	
 	
+	public StudentBean(String stdNo, String stdName, String stdPhone, String stdAddress, int stdYear) {
+		this.stdNo = stdNo;
+		this.stdName = stdName;
+		this.stdPhone = stdPhone;
+		this.stdAddress = stdAddress;
+		this.stdYear = stdYear;
+	}
+	
+	
 	public String getStdNo() {
 		return stdNo;
 	}
